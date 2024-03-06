@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER PREDICTION SYSTEM</title>
+    <link rel="stylesheet" href="w.css">
+</head>
+<body>
+
+   
+<div class="container">
+    <marquee scrollamount = 10><p>---SKY SYNC---</p></marquee>
+        <input type="text" placeholder="Enter City Name" class="input-box">
+        <button id="search">Search</button>
+
+        
+    <div class="weather">
+        <img src="./images/cloud.png" alt="weather" class="weather-img">
+    <div class="weather-box">
+        <p class="temperature">26° C</p>
+        <p class="description">Light Rain</p>
+    </div>
+
+    <div class="weather-details">
+
+        <div class="humidity">
+            <i class="fa-sharp fa-solid fa-droplet"></i>
+            <div class="text">
+                <span id="humidity">45%</span>
+                <p>Humidity</p>
+            </div>
+        </div>
+
+        <div class="wind">
+            <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span id="wind speed">12 KMPH</span>
+                    <p>Wind Speed</p>
+                </div>
+        </div>
+
+        <div class="feelslike">
+            <i class="fa-solid fa-temperature-three-quarters"></i>
+                <div class="text">
+                    <span id="feelslike">12° C</span>
+                    <p>Feels Like</p>
+                </div>
+        </div>
+        
+        <div class="visibility">
+            <i class="fa-solid fa-eye-slash"></i>
+                <div class="text">
+                    <span id="visibility">5 KM</span>
+                    <p>Visibility</p>
+                 </div>
+        </div>
+       
+
+    </div>
+    </div>
+</div>
+
+
+<script src="w.js"></script>
+<script src="https://kit.fontawesome.com/e3f568e9ef.js" crossorigin="anonymous"></script>
+</body>
+</html>
